@@ -1,0 +1,24 @@
+body {
+  font-family: OpenSans, sans-serif;
+}
+
+/* Navbar */
+
+.navbar-default .navbar-nav .active a {
+   background-color: inherit;
+   color: #399bd1;
+}
+
+.navbar-default .navbar-nav .active a:hover {
+   background-color: inherit;
+}
+
+.navbar-default .navbar-nav a {
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+  img.navbar-brand {
+    display: none;
+  }
+}

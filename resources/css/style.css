@@ -24,6 +24,24 @@ html {
   }
 }
 
+/* Button rules */
+.btn-primary {
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  padding: 1.3rem;
+  width: 11.4rem;
+  margin-top: 2.8rem;
+}
+
+.btn-primary:hover{
+  background-color: #399bd1;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+.btn-primary:active{
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
 /* Jumbotron */
 .jumbotron {
   background-image: url("../images/jumbotron-bike.jpg");
@@ -46,22 +64,6 @@ html {
 
 .jumbotron .heading h2 {
   font-size: 1.6rem;
-  margin-bottom: 2.8rem;
-}
-
-.jumbotron .heading button {
-  background-color: #399bd1;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
-  padding: 1.3rem;
-  width: 11.4rem;
-}
-
-.jumbotron .heading button:hover{
-  box-shadow: 0 0 12px rgba(0 0 0 0.9;)
-}
-
-.jumbotron .heading button:active{
-  box-shadow: 0 0 0 rgba(0 0 0 0.5;)
 }
 
 /* Main content general rules */
@@ -100,4 +102,20 @@ main h2 {
   color: #399bd1;
 }
 
-/* Projects */
+/* Footer */
+footer {
+  background-color: #f3f3f3;
+  padding: 5.2rem 0;
+  text-align: center;
+}
+
+footer h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.4rem;
+}
+
+footer .text {
+  width: 42rem;
+  margin: 0 auto;
+}

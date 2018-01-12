@@ -1,9 +1,9 @@
-body {
-  font-family: OpenSans, sans-serif;
+html {
+  font-family: Open Sans, sans-serif;
+  font-size: 14px;
 }
 
 /* Navbar */
-
 .navbar-default .navbar-nav .active a {
    background-color: inherit;
    color: #399bd1;
@@ -14,11 +14,27 @@ body {
 }
 
 .navbar-default .navbar-nav a {
-  font-weight: 600;
+  font-weight: bold;
+  font-size: 1.1rem;
 }
 
 @media only screen and (max-width: 768px) {
   img.navbar-brand {
     display: none;
   }
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-image: url("../images/jumbotron-bike.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron h1 {
+  font-family: Monoton;
+  font-size: 7.1rem;
+  text-align: center;
+  color: white;
+  margin-top: 11.85rem;
 }

@@ -9,3 +9,8 @@ $(document).ready(function(){
     pauseOnHover: false
   });
 });
+
+var howfarscrolled = 0;
+  $(window).scroll(function() {
+    var scrollTop = $(this).scrollTop()
+  }
